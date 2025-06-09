@@ -1,0 +1,37 @@
+Build a fully working YouTube video and Shorts downloader website with the following requirements:
+
+1. Features:
+- Allow users to input any YouTube video or Shorts URL.
+- Provide download options for video+audio in 360p and 720p quality.
+- Use the latest version of yt-dlp for fast, reliable fetching and downloading.
+- Download should happen quickly in one go, no segmented downloading.
+- No history or user data is saved on the server or client.
+- Solve all download-related problems directly, ensuring smooth user experience.
+
+2. Design:
+- Follow a clean, elegant, light-themed UI inspired by high-end developer component library homepages.
+- Use a white #ffffff background with generous whitespace.
+- Bold and large headline typography (48px+, weight 600-800).
+- Body text in neutral gray #6b7280 with comfortable reading size.
+- UI elements like cards and sections should have subtle rounded corners (~0.75rem) and soft shadows.
+- Layout should be full-width but content centered with max width ~1200px, using flexible grid or columns.
+- Navigation: a sticky minimal top bar with a simple logo on left and minimal navigation on right.
+- Include a prominent CTA button in the hero section.
+- Interactive elements should have smooth hover and active states with gentle transitions.
+- Use semantic HTML5, accessibility best practices, minimal and clean JavaScript.
+- Style with utility-first CSS framework (e.g. Tailwind CSS) or equivalent for responsiveness and modern UI.
+
+3. Technical:
+- Frontend and backend can be combined into a single app where yt-dlp core logic is invoked securely.
+- Ensure fast response and reliable video fetch from YouTube.
+- Provide user feedback and download progress clearly.
+- Support Shorts URLs seamlessly as well.
+
+Deliverable:
+A complete, ready-to-run Replit project that fulfills all above functional and design requirements.
+
+Remember:
+- No user download history saved anywhere.
+- Use the latest yt-dlp with best practices for fast fetching.
+- Provide only 360p and 720p combined video+audio downloads.
+- Modern, minimal, elegant UI with excellent developer-focused UX.
